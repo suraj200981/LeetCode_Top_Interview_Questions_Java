@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Runtime: 54 ms, faster than 7.24% of Java online submissions for Richest Customer Wealth.">
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="reduced run time to 2ms for RichestCustomerWealth">
+      <change afterPath="$PROJECT_DIR$/src/Easy/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/RichestCustomerWealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/RichestCustomerWealth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666547531607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reduced run time to 2ms for RichestCustomerWealth">
+      <created>1666547804511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666547804511</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +120,8 @@
     <MESSAGE value="solved using a pointer value storage which is incremented when nums[x]!=nums[x+1]" />
     <MESSAGE value="Running sum of 1d array runtime 1 ms" />
     <MESSAGE value="Runtime: 54 ms, faster than 7.24% of Java online submissions for Richest Customer Wealth." />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 54 ms, faster than 7.24% of Java online submissions for Richest Customer Wealth." />
+    <MESSAGE value="reduced run time to 2ms for RichestCustomerWealth" />
+    <option name="LAST_COMMIT_MESSAGE" value="reduced run time to 2ms for RichestCustomerWealth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -121,6 +130,11 @@
           <url>file://$PROJECT_DIR$/src/Easy/RunningSumOf1dArray.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/FizzBuzz.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
