@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="solved using a pointer value storage which is incremented when nums[x]!=nums[x+1]">
-      <change afterPath="$PROJECT_DIR$/src/Easy/RunningSumOf1dArray.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Running sum of 1d array runtime 1 ms">
+      <change afterPath="$PROJECT_DIR$/src/Easy/RichestCustomerWealth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664693400644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Running sum of 1d array runtime 1 ms">
+      <created>1666452342535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666452342536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +104,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit" />
     <MESSAGE value="solved using a pointer value storage which is incremented when nums[x]!=nums[x+1]" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved using a pointer value storage which is incremented when nums[x]!=nums[x+1]" />
+    <MESSAGE value="Running sum of 1d array runtime 1 ms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Running sum of 1d array runtime 1 ms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
