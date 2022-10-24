@@ -8,6 +8,7 @@ public class Main {
         RunningSumOf1dArray three = new RunningSumOf1dArray();
         RichestCustomerWealth four = new RichestCustomerWealth();
         FizzBuzz five = new FizzBuzz();
+        NumberOfStepsToReduceNumberToZero six = new NumberOfStepsToReduceNumberToZero();
 //        int [] nums = {1,1,2,2,2,3,3,4,4};
 //        System.out.println("Output: "+one.removeDuplicates(nums));
 
@@ -19,7 +20,11 @@ public class Main {
 
 //        System.out.println("Output: "+ four.maximumWealth(accounts));
 
+//        System.out.println("Output: ");
+//        System.out.println(five.fizzBuzz(15));
+
         System.out.println("Output: ");
-        System.out.println(five.fizzBuzz(15));
+        System.out.println();
+        System.out.println(six.numberOfSteps(14));
     }
 }

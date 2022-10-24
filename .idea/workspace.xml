@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="reduced run time to 2ms for RichestCustomerWealth">
-      <change afterPath="$PROJECT_DIR$/src/Easy/FizzBuzz.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz.">
+      <change afterPath="$PROJECT_DIR$/src/Easy/NumberOfStepsToReduceNumberToZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666547804511</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz.">
+      <created>1666550739862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666550739862</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,7 +128,8 @@
     <MESSAGE value="Running sum of 1d array runtime 1 ms" />
     <MESSAGE value="Runtime: 54 ms, faster than 7.24% of Java online submissions for Richest Customer Wealth." />
     <MESSAGE value="reduced run time to 2ms for RichestCustomerWealth" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduced run time to 2ms for RichestCustomerWealth" />
+    <MESSAGE value="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz." />
+    <option name="LAST_COMMIT_MESSAGE" value="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
