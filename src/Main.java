@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int [] nums = new int[] {0,2,1,5,3,4};
-        BuildArrayFromPermutation program = new BuildArrayFromPermutation();
-        System.out.println("Output: "+ Arrays.toString(program.buildArray(nums)));
+        int [] nums = new int[] {1,2,3,1,1,3};
+        NumberOfGoodPairs program = new NumberOfGoodPairs();
+        System.out.println("Output "+ program.numIdenticalPairs(nums));
 
     }
 }
