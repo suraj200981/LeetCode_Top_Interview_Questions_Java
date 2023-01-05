@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="BuildArrayFromPermutation easy question - completed in O(N)">
-      <change afterPath="$PROJECT_DIR$/src/Easy/NumberOfGoodPairs.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/NumberOfGoodPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/NumberOfGoodPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672587237211</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend.">
+      <created>1672858863763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672858863764</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,7 +152,8 @@
     <MESSAGE value="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz." />
     <MESSAGE value="Runtime: 1 ms, faster than 78.67% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
     <MESSAGE value="BuildArrayFromPermutation easy question - completed in O(N)" />
-    <option name="LAST_COMMIT_MESSAGE" value="BuildArrayFromPermutation easy question - completed in O(N)" />
+    <MESSAGE value="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend." />
+    <option name="LAST_COMMIT_MESSAGE" value="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,8 +175,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Easy/NumberOfGoodPairs.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
+          <line>37</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

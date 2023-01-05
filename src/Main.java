@@ -7,7 +7,7 @@ public class Main {
 
         int [] nums = new int[] {1,2,3,1,1,3};
         NumberOfGoodPairs program = new NumberOfGoodPairs();
-        System.out.println("Output "+ program.numIdenticalPairs(nums));
+        System.out.println("Output: "+ program.numIdenticalPairsLinearSolution(nums));
 
     }
 }
