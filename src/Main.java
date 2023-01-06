@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int [] nums = new int[] {1,2,3,1,1,3};
-        NumberOfGoodPairs program = new NumberOfGoodPairs();
-        System.out.println("Output: "+ program.numIdenticalPairsLinearSolution(nums));
+        String [] sentences = new String[] {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
+        MostWordsFound program = new MostWordsFound();
+        System.out.println("Output: "+ program.mostWordsFound(sentences));
 
     }
 }
