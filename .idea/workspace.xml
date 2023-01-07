@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="numIdenticalPairs easy question - completed in O(N) Linear time.">
-      <change afterPath="$PROJECT_DIR$/src/Easy/MostWordsFound.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear.">
+      <change afterPath="$PROJECT_DIR$/src/Easy/KidsWithCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672942615695</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear.">
+      <created>1673031429011</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673031429011</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +169,8 @@
     <MESSAGE value="BuildArrayFromPermutation easy question - completed in O(N)" />
     <MESSAGE value="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend." />
     <MESSAGE value="numIdenticalPairs easy question - completed in O(N) Linear time." />
-    <option name="LAST_COMMIT_MESSAGE" value="numIdenticalPairs easy question - completed in O(N) Linear time." />
+    <MESSAGE value="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear." />
+    <option name="LAST_COMMIT_MESSAGE" value="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,6 +199,11 @@
           <url>file://$PROJECT_DIR$/src/Easy/MostWordsFound.java</url>
           <line>13</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/KidsWithCandies.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
