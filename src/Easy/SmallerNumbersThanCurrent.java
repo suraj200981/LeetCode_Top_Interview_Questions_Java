@@ -31,4 +31,31 @@ public class SmallerNumbersThanCurrent {
     }
     return resultArray;
   }
+
+
+  public int[] smallerNumbersThanCurrentLinearSolution(int[] nums){
+    int[] resultArray = new int[nums.length];
+    int x = 0;
+    int y = 0;
+    while (true) {
+      if(y== nums.length){
+        x++;
+        y=0;
+      }
+      if(x==nums.length){
+        break;
+      }
+      if (x != y) {
+        if(nums[x]>nums[y]){
+          resultArray[x]+=1;
+        }
+        y++;
+      } else {
+        y++;
+      }
+    }
+
+    return resultArray;
+
+  }
 }

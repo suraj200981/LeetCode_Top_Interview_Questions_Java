@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Kids With Candies easy question - completed in O(N) time Linear solution.">
-      <change afterPath="$PROJECT_DIR$/src/Easy/SmallerNumbersThanCurrent.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/SmallerNumbersThanCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/SmallerNumbersThanCurrent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -151,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673096178331</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution.">
+      <created>1673175899792</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673175899792</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +193,8 @@
     <MESSAGE value="numIdenticalPairs easy question - completed in O(N) Linear time." />
     <MESSAGE value="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear." />
     <MESSAGE value="Kids With Candies easy question - completed in O(N) time Linear solution." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kids With Candies easy question - completed in O(N) time Linear solution." />
+    <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,8 +231,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Easy/SmallerNumbersThanCurrent.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="28" />
+          <line>40</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
