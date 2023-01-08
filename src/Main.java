@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int [] candies = new int[] {2,3,5,1,3};
-        KidsWithCandies program = new KidsWithCandies();
-        System.out.println("Output: "+ program.kidsWithCandies(candies, 3));
+        int [] nums = new int[] {8,1,2,2,3};
+        SmallerNumbersThanCurrent program = new SmallerNumbersThanCurrent();
+        System.out.println("Output: "+ Arrays.toString(program.smallerNumbersThanCurrentQuadraticSolution(nums)));
 
     }
 }
