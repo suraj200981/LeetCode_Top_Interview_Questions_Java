@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution.">
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution.">
+      <change afterPath="$PROJECT_DIR$/src/Easy/ShuffleString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/SmallerNumbersThanCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/SmallerNumbersThanCurrent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673175899792</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution.">
+      <created>1673176593418</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673176593418</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +201,8 @@
     <MESSAGE value="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear." />
     <MESSAGE value="Kids With Candies easy question - completed in O(N) time Linear solution." />
     <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution." />
-    <option name="LAST_COMMIT_MESSAGE" value="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution." />
+    <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
