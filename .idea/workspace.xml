@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Shuffle String easy question - completed in O(N) time Linear solution.">
-      <change afterPath="$PROJECT_DIR$/src/Easy/CreateTargetArray.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="progression on target array problem, making a second function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/CreateTargetArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/CreateTargetArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673292398028</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="progression on target array problem">
+      <created>1673458898824</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673458898824</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +217,9 @@
     <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution." />
     <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution." />
     <MESSAGE value="Shuffle String easy question - completed in O(N) time Linear solution." />
-    <option name="LAST_COMMIT_MESSAGE" value="Shuffle String easy question - completed in O(N) time Linear solution." />
+    <MESSAGE value="progression on target array problem" />
+    <MESSAGE value="progression on target array problem, making a second function" />
+    <option name="LAST_COMMIT_MESSAGE" value="progression on target array problem, making a second function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -249,6 +258,11 @@
           <url>file://$PROJECT_DIR$/src/Easy/SmallerNumbersThanCurrent.java</url>
           <line>40</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/CreateTargetArray.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

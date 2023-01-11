@@ -30,7 +30,7 @@ public class CreateTargetArray {
     int countForIndex = 0;
     int countForNums = 0;
     int temp = 0;
-    for (int x = 0; x < nums.length; x++) {
+    for (int x = 1; x < nums.length; x++) {
 
       countForNums = nums[x];
       countForIndex = index[x];
@@ -41,10 +41,41 @@ public class CreateTargetArray {
       } else {
         temp = targetArray[countForIndex];
         targetArray[countForIndex] = countForNums;
-        targetArray[x] = temp;
+
+        targetArray = appendValueToArray(targetArray, temp,countForIndex);
+
+//        targetArray[x] = temp;
+
       }
     }
 
     return targetArray;
+  }
+
+
+  public int[] appendValueToArray(int[] arr, int valueAppend, int indexStarting){
+    //valueToAppend = 1
+    //x = 4
+    //arr = [0,4,3,2,0]
+
+    int temp =0;
+    int temp2=0;
+    for(int x=indexStarting+1; x<arr.length-1; x++){
+
+      if (x != indexStarting + 1) {
+        arr[x+1]= temp2;
+        break;
+      }
+
+        temp = arr[x];//3 //
+        arr[x] = valueAppend;////arr = [0,4,1,2,0]
+        temp2 = arr[x + 1];
+        arr[x+1] = temp;
+
+
+    }
+
+
+    return arr;
   }
 }
