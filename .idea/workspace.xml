@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution.">
-      <change afterPath="$PROJECT_DIR$/src/Easy/ShuffleString.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Shuffle String easy question - completed in O(N) time Linear solution.">
+      <change afterPath="$PROJECT_DIR$/src/Easy/CreateTargetArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673176593418</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Shuffle String easy question - completed in O(N) time Linear solution.">
+      <created>1673292398028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673292398028</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +209,8 @@
     <MESSAGE value="Kids With Candies easy question - completed in O(N) time Linear solution." />
     <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution." />
     <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution." />
-    <option name="LAST_COMMIT_MESSAGE" value="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution." />
+    <MESSAGE value="Shuffle String easy question - completed in O(N) time Linear solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Shuffle String easy question - completed in O(N) time Linear solution." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
