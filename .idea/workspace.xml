@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="DefangingIPAddress easy string question completed in O(N) Linear time.">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/JewelsAndStones.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Jewels and stones Easy String problem, completed in O(N)">
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/GoalParserInterpretation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673540933599</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Jewels and stones Easy String problem, completed in O(N)">
+      <created>1673541861848</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673541861848</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +242,8 @@
     <MESSAGE value="progression on target array problem, making a second function" />
     <MESSAGE value="progression on target array problem, making a second function solved 1 test case. need further investigating" />
     <MESSAGE value="DefangingIPAddress easy string question completed in O(N) Linear time." />
-    <option name="LAST_COMMIT_MESSAGE" value="DefangingIPAddress easy string question completed in O(N) Linear time." />
+    <MESSAGE value="Jewels and stones Easy String problem, completed in O(N)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jewels and stones Easy String problem, completed in O(N)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
