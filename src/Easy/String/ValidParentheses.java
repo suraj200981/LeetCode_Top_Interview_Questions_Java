@@ -26,7 +26,6 @@ public class ValidParentheses {
           if (map.get(s.charAt(x)) == s.charAt(y)) {
             output = true;
             x++;
-            break;
           } else {
             output = false;
           }

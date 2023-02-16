@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="CellsInExcelSheet easy strings problem completed O(N^2) quadratic solution">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/ValidParentheses.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="working on isVaild">
+      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/RomanToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/String/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/String/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +44,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -222,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673797911871</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="working on isVaild">
+      <created>1673894052694</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673894052694</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +271,8 @@
     <MESSAGE value="Jewels and stones Easy String problem, completed in O(N)" />
     <MESSAGE value="GoalParserInterpretation easy strings problem completed O(N) Linear solution" />
     <MESSAGE value="CellsInExcelSheet easy strings problem completed O(N^2) quadratic solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="CellsInExcelSheet easy strings problem completed O(N^2) quadratic solution" />
+    <MESSAGE value="working on isVaild" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on isVaild" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
