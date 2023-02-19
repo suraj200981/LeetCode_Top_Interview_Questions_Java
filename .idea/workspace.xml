@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="started roman to integer problem">
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="progress on roman to integer problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Algorithms/RomanToInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676562917323</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="progress on roman to integer problem">
+      <created>1676565981056</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676565981056</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +285,8 @@
     <MESSAGE value="CellsInExcelSheet easy strings problem completed O(N^2) quadratic solution" />
     <MESSAGE value="working on isVaild" />
     <MESSAGE value="started roman to integer problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="started roman to integer problem" />
+    <MESSAGE value="progress on roman to integer problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="progress on roman to integer problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -337,6 +345,11 @@
           <url>file://$PROJECT_DIR$/src/Easy/String/ValidParentheses.java</url>
           <line>19</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/RomanToInt.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         RomanToInt program = new RomanToInt();
-        System.out.println("Output: "+ program.romanToInt("IV"));
+        System.out.println("Output: "+ program.romanToInt("LVIII"));
 
     }
 }

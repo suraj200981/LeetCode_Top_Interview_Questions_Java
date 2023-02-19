@@ -48,26 +48,35 @@ int currentTotal= 0;
      if(x== s.length()){
        break;
      }else {
-       if(s.charAt(x)=='I' && s.charAt(x+1)=='V'){
-         currentTotal += romanNumerals.get("IV");
+       if(x!=s.length()-1) {
+         if ((s.charAt(x) == 'I' && s.charAt(x + 1) == 'V') && x != toString().length() - 1) {
+           currentTotal += romanNumerals.get("IV");
+           x+=2;
+         } else if (s.charAt(x) == 'I' && s.charAt(x + 1) == 'X') {
+           currentTotal += romanNumerals.get("IX");
+           x+=2;
+         } else if (s.charAt(x) == 'X' && s.charAt(x + 1) == 'L') {
+           currentTotal += romanNumerals.get("XL");
+           x+=2;
+         } else if (s.charAt(x) == 'X' && s.charAt(x + 1) == 'C') {
+           currentTotal += romanNumerals.get("XC");
+           x+=2;
+         } else if (s.charAt(x) == 'C' && s.charAt(x + 1) == 'D') {
+           currentTotal += romanNumerals.get("CD");
+           x+=2;
+         } else if (s.charAt(x) == 'C' && s.charAt(x + 1) == 'M') {
+           currentTotal += romanNumerals.get("CM");
+           x+=2;
+         }
+         else {
+           currentTotal += romanNumerals.get(String.valueOf(s.charAt(x)));
+           x++;
+         }
        }
-       else if (s.charAt(x)=='I' && s.charAt(x+1)=='X'){
-         currentTotal += romanNumerals.get("IX");
+       else {
+         currentTotal += romanNumerals.get(String.valueOf(s.charAt(x)));
+         x++;
        }
-       else if (s.charAt(x)=='X' && s.charAt(x+1)=='L'){
-         currentTotal += romanNumerals.get("XL");
-       }
-       else if (s.charAt(x)=='X' && s.charAt(x+1)=='C'){
-         currentTotal += romanNumerals.get("XC");
-       }
-       else if (s.charAt(x)=='C' && s.charAt(x+1)=='D'){
-         currentTotal += romanNumerals.get("CD");
-       }
-       else if (s.charAt(x)=='C' && s.charAt(x+1)=='M'){
-         currentTotal += romanNumerals.get("CM");
-       }
-       currentTotal += romanNumerals.get(String.valueOf(s.charAt(x)));
-       x++;
      }
 
 
