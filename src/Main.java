@@ -1,5 +1,6 @@
 import Easy.*;
 import Easy.Algorithms.RomanToInt;
+import Easy.Algorithms.ValidParentheses;
 import Easy.String.*;
 
 import java.util.Arrays;
@@ -7,8 +8,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        RomanToInt program = new RomanToInt();
-        System.out.println("Output: "+ program.romanToInt("LVIII"));
+        ValidParentheses program = new ValidParentheses();
+        System.out.println("Output: "+ program.isValid("{[]}"));
 
     }
 }
