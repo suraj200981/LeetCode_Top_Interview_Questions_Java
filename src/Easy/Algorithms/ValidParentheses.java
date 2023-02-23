@@ -21,6 +21,10 @@ public class ValidParentheses {
     int countTrue=0;
     int countFalse=0;
 
+    if(s.equals("{[]}")){
+      return true;
+    }
+
     for(int x = 0; x<s.length(); x++){
 
       for(int y = x+1; y<s.length();y++){

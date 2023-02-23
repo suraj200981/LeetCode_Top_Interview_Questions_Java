@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Roman numerals to int problem solved in O(N)">
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="valid paraentheses progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/String/ValidParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676815447326</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="valid paraentheses progress">
+      <created>1676921092721</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676921092721</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +274,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solved using a pointer value storage which is incremented when nums[x]!=nums[x+1]" />
     <MESSAGE value="Running sum of 1d array runtime 1 ms" />
     <MESSAGE value="Runtime: 54 ms, faster than 7.24% of Java online submissions for Richest Customer Wealth." />
     <MESSAGE value="reduced run time to 2ms for RichestCustomerWealth" />
@@ -294,7 +298,8 @@
     <MESSAGE value="started roman to integer problem" />
     <MESSAGE value="progress on roman to integer problem" />
     <MESSAGE value="Roman numerals to int problem solved in O(N)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Roman numerals to int problem solved in O(N)" />
+    <MESSAGE value="valid paraentheses progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="valid paraentheses progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -356,7 +361,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java</url>
-          <line>23</line>
+          <line>27</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
