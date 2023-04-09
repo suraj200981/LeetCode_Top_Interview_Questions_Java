@@ -1,4 +1,4 @@
-package Easy.Algorithms;
+package Easy.String;
 
 public class BalancedStrings {
 

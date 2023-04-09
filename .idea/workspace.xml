@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="valid paraentheses progress">
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/BalancedStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/singleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Split a String in Balanced Strings solution">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/DecodeTheMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/BalancedStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/String/BalancedStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +45,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -272,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677174610550</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Split a String in Balanced Strings solution">
+      <created>1680888498811</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680888498811</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +292,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Running sum of 1d array runtime 1 ms" />
     <MESSAGE value="Runtime: 54 ms, faster than 7.24% of Java online submissions for Richest Customer Wealth." />
     <MESSAGE value="reduced run time to 2ms for RichestCustomerWealth" />
     <MESSAGE value="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz." />
@@ -312,7 +316,8 @@
     <MESSAGE value="progress on roman to integer problem" />
     <MESSAGE value="Roman numerals to int problem solved in O(N)" />
     <MESSAGE value="valid paraentheses progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="valid paraentheses progress" />
+    <MESSAGE value="Split a String in Balanced Strings solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split a String in Balanced Strings solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,9 +388,14 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/BalancedStrings.java</url>
+          <url>file://$PROJECT_DIR$/src/Easy/String/BalancedStrings.java</url>
           <line>9</line>
           <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/DecodeTheMessage.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
