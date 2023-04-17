@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="O(n) solution for decode the message leetcode problem">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/CountItemsMatchingRule.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="O(n) solution for count items matching rule problem">
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/SortingTheSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -42,12 +42,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681044158812</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="O(n) solution for count items matching rule problem">
+      <created>1681647865905</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681647865905</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +304,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reduced run time to 2ms for RichestCustomerWealth" />
     <MESSAGE value="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz." />
     <MESSAGE value="Runtime: 1 ms, faster than 78.67% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
     <MESSAGE value="BuildArrayFromPermutation easy question - completed in O(N)" />
@@ -322,7 +328,8 @@
     <MESSAGE value="valid paraentheses progress" />
     <MESSAGE value="Split a String in Balanced Strings solution" />
     <MESSAGE value="O(n) solution for decode the message leetcode problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="O(n) solution for decode the message leetcode problem" />
+    <MESSAGE value="O(n) solution for count items matching rule problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="O(n) solution for count items matching rule problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
