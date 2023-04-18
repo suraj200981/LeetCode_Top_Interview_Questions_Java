@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="O(n) solution for count items matching rule problem">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/SortingTheSentence.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="working on sorting sentence problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/String/SortingTheSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/String/SortingTheSentence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681647865905</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="working on sorting sentence problem">
+      <created>1681760583058</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681760583058</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +310,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz." />
     <MESSAGE value="Runtime: 1 ms, faster than 78.67% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
     <MESSAGE value="BuildArrayFromPermutation easy question - completed in O(N)" />
     <MESSAGE value="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend." />
@@ -329,7 +334,8 @@
     <MESSAGE value="Split a String in Balanced Strings solution" />
     <MESSAGE value="O(n) solution for decode the message leetcode problem" />
     <MESSAGE value="O(n) solution for count items matching rule problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="O(n) solution for count items matching rule problem" />
+    <MESSAGE value="working on sorting sentence problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on sorting sentence problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,6 +419,11 @@
           <url>file://$PROJECT_DIR$/src/Easy/String/CountItemsMatchingRule.java</url>
           <line>19</line>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/SortingTheSentence.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
