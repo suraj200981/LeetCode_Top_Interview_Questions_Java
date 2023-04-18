@@ -1,13 +1,17 @@
 
+import Easy.String.CheckIfTwoStringArraysAreEquivalent;
 import Easy.String.SortingTheSentence;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        SortingTheSentence program = new SortingTheSentence();
+        CheckIfTwoStringArraysAreEquivalent program = new CheckIfTwoStringArraysAreEquivalent();
 
-        System.out.println("Output : "+ program.sortSentence("is2 sentence4 This1 a3"));
+        String [] word1 = new String[]{"ab","c"};
+        String [] word2 = new String[]{"a","bc"};
+
+        System.out.println("Output : "+ program.arrayStringsAreEqual(word1,word2));
 
 
 
