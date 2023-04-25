@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="solved but i dont think the code is very efficient">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/CheckIfTwoStringArraysAreEquivalent.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Check If Two String Arrays Are Equivalent solved in O(n)">
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/CheckIfPanagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -303,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681841994558</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Check If Two String Arrays Are Equivalent solved in O(n)">
+      <created>1681842499119</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681842499119</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +325,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BuildArrayFromPermutation easy question - completed in O(N)" />
     <MESSAGE value="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend." />
     <MESSAGE value="numIdenticalPairs easy question - completed in O(N) Linear time." />
     <MESSAGE value="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear." />
@@ -343,7 +349,8 @@
     <MESSAGE value="O(n) solution for count items matching rule problem" />
     <MESSAGE value="working on sorting sentence problem" />
     <MESSAGE value="solved but i dont think the code is very efficient" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved but i dont think the code is very efficient" />
+    <MESSAGE value="Check If Two String Arrays Are Equivalent solved in O(n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check If Two String Arrays Are Equivalent solved in O(n)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -432,6 +439,16 @@
           <url>file://$PROJECT_DIR$/src/Easy/String/SortingTheSentence.java</url>
           <line>38</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/CheckIfTwoStringArraysAreEquivalent.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/CheckIfPanagram.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
