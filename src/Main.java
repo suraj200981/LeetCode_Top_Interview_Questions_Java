@@ -1,15 +1,12 @@
 
-import Easy.String.CheckIfPanagram;
-import Easy.String.CheckIfTwoStringArraysAreEquivalent;
-import Easy.String.SortingTheSentence;
-import Easy.String.TruncateSentence;
+import Easy.String.*;
 
 
 public class Main {
     public static void main(String[] args) {
 
-        TruncateSentence program = new TruncateSentence();
-        System.out.println("Output : "+ program.truncateSentence("Hello how are you Contestant",4));
+        MergeStringsAlternately program = new MergeStringsAlternately();
+        System.out.println("Output : "+ program.mergeAlternately("ab","pqrs"));
 
 
 

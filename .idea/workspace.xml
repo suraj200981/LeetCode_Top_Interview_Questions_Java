@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="CheckIfPanagram.java solved">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/TruncateSentence.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="completed in O(n)">
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/MergeStringsAlternately.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -317,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682451398841</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="completed in O(n)">
+      <created>1682618204639</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682618204639</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +339,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="numIdenticalPairs easy question - completed in O(N) Linear time." />
     <MESSAGE value="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear." />
     <MESSAGE value="Kids With Candies easy question - completed in O(N) time Linear solution." />
     <MESSAGE value="Smaller numbers than current number in array easy question - completed in O(N^2) time Quadratic solution." />
@@ -357,7 +363,8 @@
     <MESSAGE value="solved but i dont think the code is very efficient" />
     <MESSAGE value="Check If Two String Arrays Are Equivalent solved in O(n)" />
     <MESSAGE value="CheckIfPanagram.java solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="CheckIfPanagram.java solved" />
+    <MESSAGE value="completed in O(n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed in O(n)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,7 +469,15 @@
           <line>30</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/MergeStringsAlternately.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode_Top_Interview_Questions_Java$Main.ic" NAME="Main Coverage Results" MODIFIED="1682619013025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
