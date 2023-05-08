@@ -7,8 +7,12 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        uniqueMorseRepresentations program = new uniqueMorseRepresentations();
-        System.out.println("Output : "+ program.uniqueMorseRepresentations(Arrays.asList("yxmine","yxzd","eljys","uiaopi","pwlk").toArray(new String[0])));
+        CountConsistentStrings program = new CountConsistentStrings();
+
+        String[] words = new String[]{"a","b","c","ab","ac","bc","abc"};
+        String[] words1 = new String[]{"ad","bd","aaab","baa","badab"};
+
+        System.out.println("Output : "+ program.countConsistentStrings("abc", words));
 
 
 
