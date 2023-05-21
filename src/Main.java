@@ -1,4 +1,5 @@
 
+import Easy.Array.PlusOne;
 import Easy.String.*;
 
 import java.util.Arrays;
@@ -7,12 +8,14 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        CountConsistentStrings program = new CountConsistentStrings();
+        PlusOne program = new PlusOne();
 
-        String[] words = new String[]{"a","b","c","ab","ac","bc","abc"};
-        String[] words1 = new String[]{"ad","bd","aaab","baa","badab"};
+        int[] nums = new int[]{1,2,3};
 
-        System.out.println("Output : "+ program.countConsistentStrings("abc", words));
+        int[] nums1 = new int[]{9,8,7,6,5,4,3,2,1,0};
+
+
+        System.out.println("Output : "+ Arrays.toString(program.plusOne(nums1)));
 
 
 
