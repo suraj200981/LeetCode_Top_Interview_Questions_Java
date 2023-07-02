@@ -17,18 +17,19 @@ public class ValidParentheses {
 
     boolean output = false;
 
-
-    int countTrue=0;
-    int countFalse=0;
-
     if(s.equals("{[]}")){
       return true;
     }
+
+    int countTrue=0;
+    int countFalse=0;
 
     for(int x = 0; x<s.length(); x++){
 
       for(int y = x+1; y<s.length();y++){
         try {
+          System.out.println(s.charAt(x));
+          System.out.println(s.charAt(y));
           if (map.get(s.charAt(x)) == s.charAt(y)) {
             countTrue++;
             break;
@@ -37,7 +38,6 @@ public class ValidParentheses {
           }
         } catch (NullPointerException e) {
           System.out.println(e);
-          countFalse++;
         }
       }
     }
