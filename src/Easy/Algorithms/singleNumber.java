@@ -6,7 +6,7 @@ public class singleNumber {
   }
 
     public int singleNumberFunc(int[] nums) { // 2,2,1
-
+    
     int singleNumber = 0;
 
     for (int x=0; x<nums.length; x++){

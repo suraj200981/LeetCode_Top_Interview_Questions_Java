@@ -1,10 +1,11 @@
 package Easy.Algorithms;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class ValidParentheses {
 
-  public ValidParentheses(){
+  public ValidParentheses() {
 
   }
 
@@ -28,8 +29,6 @@ public class ValidParentheses {
 
       for(int y = x+1; y<s.length();y++){
         try {
-          System.out.println(s.charAt(x));
-          System.out.println(s.charAt(y));
           if (map.get(s.charAt(x)) == s.charAt(y)) {
             countTrue++;
             break;
@@ -53,4 +52,4 @@ public class ValidParentheses {
     return output;
   }
 
-  }
+}
