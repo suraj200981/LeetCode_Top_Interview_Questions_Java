@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="AddBinary.java solved in O(n)">
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/MinimumOpertations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/ScoreOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/StringIncrementer.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="more challenges solved">
+      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/DifferenceOfSums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/FindPermutationDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/ParkingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/Shuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/SmallestEvenMultiple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/singleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Algorithms/singleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -363,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688321642063</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="more challenges solved">
+      <created>1735486279420</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1735486279420</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="progression on target array problem" />
     <MESSAGE value="progression on target array problem, making a second function" />
     <MESSAGE value="progression on target array problem, making a second function solved 1 test case. need further investigating" />
     <MESSAGE value="DefangingIPAddress easy string question completed in O(N) Linear time." />
@@ -403,7 +410,8 @@
     <MESSAGE value="count consistent strings solved in quadratic time, come back and make this more efficient" />
     <MESSAGE value="Plus One Array problem solved in linear time O(n)" />
     <MESSAGE value="AddBinary.java solved in O(n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddBinary.java solved in O(n)" />
+    <MESSAGE value="more challenges solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="more challenges solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,6 +555,21 @@
           <url>file://$PROJECT_DIR$/src/Easy/Algorithms/MinimumOpertations.java</url>
           <line>46</line>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/DifferenceOfSums.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/FindPermutationDifference.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

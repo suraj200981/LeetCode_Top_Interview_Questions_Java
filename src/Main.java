@@ -1,16 +1,18 @@
 
-import Easy.Algorithms.MinimumOpertations;
-import Easy.Algorithms.ScoreOfString;
-import Easy.Algorithms.singleNumber;
+import Easy.Algorithms.*;
+
+import java.util.Arrays;
 
 
 public class Main {
   public static void main(String[] args) {
 
-    MinimumOpertations program = new MinimumOpertations();
-    int[] nums = new int[] { 1, 2, 3, 4 };
+    LargestLocalMatrix program = new LargestLocalMatrix();
 
-    System.out.println("Output : " + program.minimumOperations(nums));
-    
+    int[][] grid1 = new int[][]{{9, 9, 8, 1}, {5, 6, 2, 6}, {8, 2, 6, 4}, {6, 2, 2, 2}};
+//    int[][] grid2 = new int[][]{{1, 1, 1, 1, 1}, {1, 1, 1, 1, 1}, {1, 1, 2, 1, 1}, {1, 1, 1, 1,
+//            1}, {1, 1, 1, 1, 1}};
+    System.out.println("output: " + Arrays.deepToString(program.largestLocal(grid1)));
+//    System.out.println("output: " + Arrays.deepToString(program.largestLocal(grid2)));
   }
 }
