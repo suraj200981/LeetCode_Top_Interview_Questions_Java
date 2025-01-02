@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="more challenges solved">
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="working O(n^2) solution for LargestLocalMatrix.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735750318179</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="working O(n^2) solution for LargestLocalMatrix.java">
+      <created>1735812559234</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1735812559234</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="progression on target array problem, making a second function" />
     <MESSAGE value="progression on target array problem, making a second function solved 1 test case. need further investigating" />
     <MESSAGE value="DefangingIPAddress easy string question completed in O(N) Linear time." />
     <MESSAGE value="Jewels and stones Easy String problem, completed in O(N)" />
@@ -412,7 +417,8 @@
     <MESSAGE value="Plus One Array problem solved in linear time O(n)" />
     <MESSAGE value="AddBinary.java solved in O(n)" />
     <MESSAGE value="more challenges solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="more challenges solved" />
+    <MESSAGE value="working O(n^2) solution for LargestLocalMatrix.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="working O(n^2) solution for LargestLocalMatrix.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
