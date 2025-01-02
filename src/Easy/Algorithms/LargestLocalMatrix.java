@@ -42,76 +42,26 @@ n == grid.length == grid[i].length
 public class LargestLocalMatrix {
   public int[][] largestLocal(int[][] grid) {
 
-    for (int r = 0; r < grid.length; r++) {
-      System.out.print("Row " + r + ":   ");
-      for (int c = 0; c <= 3; c++) {
-        if (c == 3) {
-          System.out.print(grid[r][c]);
+    int n = grid.length;
 
-        } else {
-          System.out.print(grid[r][c] + ", ");
-        }
-      }
-      System.out.println();
+    int[][] maxLocal = new int[n - 2][n - 2];
 
-    }
-
-    System.out.println();
-    System.out.println();
-    System.out.println();
-    boolean findingLargestLocal = false;
-
-    ArrayList<Integer> largestNums = new ArrayList<>();
-    int currentLargest = 0;
-
-    int rowChange = 0;
-    int columnChange = 0;
-    int upToRow = grid.length - 2;
-    int upToColumn = grid.length - 2;
-    System.out.println(grid.length-2);
-
-    while (!findingLargestLocal) {
-      for (int r = rowChange; r <=upToRow; r++) {
-
-
-        System.out.print("Row " + r + ":   ");
-        for (int c = columnChange; c <= upToColumn; c++) {
-          System.out.print(grid[r][c] + ", ");
-          if (grid[r][c] > currentLargest) {
-            currentLargest = grid[r][c];
-            if (columnChange == grid.length - 2) {
-              columnChange = 0;
-              rowChange++;
-            }
-          }
-        }
-        if (r == grid.length - 2) {
-          largestNums.add(currentLargest);
-          System.out.println();
-          System.out.println("Biggest was: "+ currentLargest);
-          currentLargest = 0;
-          upToColumn = grid.length - 1;
-          columnChange++;
-          System.out.println("--------------");
-
-        }
-        System.out.println();
-
-        if(largestNums.size()==grid.length-2){
-          upToRow=grid.length - 1;
-          upToColumn= grid.length - 2;
-          rowChange=grid.length - 2;
-          columnChange=0;
-        }
-
-        if(largestNums.size()==grid.length){
-          findingLargestLocal=true;
-        }
-
+    for (int i = 0; i < n - 2; i++) {
+      for (int j = 0; j < n - 2; j++) {
+        maxLocal[i][j] = findMax(grid, i, j);
       }
     }
+    return maxLocal;
+  }
 
-    System.out.println("current largest: " + largestNums);
-    return null;
+  private int findMax(int grid[][], int x, int y) {
+    int maxEle = 0;
+    for (int i = x; i < x + 3; i++) {
+      for (int j = y; j < y + 3; j++) {
+        maxEle = Math.max(maxEle, grid[i][j]);
+      }
+    }
+    return maxEle;
   }
 }
+

@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="more challenges solved">
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/DifferenceOfSums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/FindPermutationDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/ParkingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/Shuffle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/SmallestEvenMultiple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735486279420</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="more challenges solved">
+      <created>1735750318179</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1735750318179</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +569,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Easy/Algorithms/LargestLocalMatrix.java</url>
-          <line>101</line>
+          <line>64</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
