@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="working O(n^2) solution for LargestLocalMatrix.java">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/MaxScore.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="working O(n) solution for maxScore.java">
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/IsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium/VowelStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -387,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735813543231</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="working O(n) solution for maxScore.java">
+      <created>1735903729204</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1735903729204</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="progression on target array problem, making a second function solved 1 test case. need further investigating" />
     <MESSAGE value="DefangingIPAddress easy string question completed in O(N) Linear time." />
     <MESSAGE value="Jewels and stones Easy String problem, completed in O(N)" />
     <MESSAGE value="GoalParserInterpretation easy strings problem completed O(N) Linear solution" />
@@ -427,7 +434,8 @@
     <MESSAGE value="AddBinary.java solved in O(n)" />
     <MESSAGE value="more challenges solved" />
     <MESSAGE value="working O(n^2) solution for LargestLocalMatrix.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="working O(n^2) solution for LargestLocalMatrix.java" />
+    <MESSAGE value="working O(n) solution for maxScore.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="working O(n) solution for maxScore.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,6 +599,26 @@
           <url>file://$PROJECT_DIR$/src/Easy/String/MaxScore.java</url>
           <line>52</line>
           <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Medium/VowelStrings.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Medium/VowelStrings.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/IsPalindrome.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/IsPalindrome.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

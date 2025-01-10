@@ -1,15 +1,13 @@
-
-import Easy.Algorithms.*;
-import Easy.String.MaxScore;
-
-import java.util.Arrays;
-
+import Easy.String.IsPalindrome;
 
 public class Main {
   public static void main(String[] args) {
 
+    IsPalindrome program = new IsPalindrome();
 
-    MaxScore program = new MaxScore();
-    System.out.println("Output: "+ program.maxScore("011101"));
+//    System.out.println("Output: "+ program.isPalindrome("A man, a plan, a canal: Panama"));
+//    System.out.println("Output: "+ program.isPalindrome("race a car"));
+    System.out.println("Output: "+ program.isPalindrome(" "));
+
   }
 }
