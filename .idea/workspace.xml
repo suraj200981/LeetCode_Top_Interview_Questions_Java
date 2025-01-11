@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="working O(n) solution for maxScore.java">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium/VowelStrings.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="isPalindrome O(N) solution">
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -43,12 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -395,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735903729204</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="isPalindrome O(N) solution">
+      <created>1736541403428</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1736541403428</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DefangingIPAddress easy string question completed in O(N) Linear time." />
     <MESSAGE value="Jewels and stones Easy String problem, completed in O(N)" />
     <MESSAGE value="GoalParserInterpretation easy strings problem completed O(N) Linear solution" />
     <MESSAGE value="CellsInExcelSheet easy strings problem completed O(N^2) quadratic solution" />
@@ -435,7 +441,8 @@
     <MESSAGE value="more challenges solved" />
     <MESSAGE value="working O(n^2) solution for LargestLocalMatrix.java" />
     <MESSAGE value="working O(n) solution for maxScore.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="working O(n) solution for maxScore.java" />
+    <MESSAGE value="isPalindrome O(N) solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="isPalindrome O(N) solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -620,8 +627,17 @@
           <line>7</line>
           <option name="timeStamp" value="149" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/ReverseString.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_Top_Interview_Questions_Java$Main.ic" NAME="Main Coverage Results" MODIFIED="1682619013025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -1,13 +1,16 @@
 import Easy.String.IsPalindrome;
+import Easy.String.ReverseString;
 
 public class Main {
   public static void main(String[] args) {
 
-    IsPalindrome program = new IsPalindrome();
+    ReverseString program = new ReverseString();
 
-//    System.out.println("Output: "+ program.isPalindrome("A man, a plan, a canal: Panama"));
-//    System.out.println("Output: "+ program.isPalindrome("race a car"));
-    System.out.println("Output: "+ program.isPalindrome(" "));
+
+    char [] charArr = new char[] {'h','e','l', ',','!','l','o'};
+
+
+    program.reverseString(charArr);
 
   }
 }
