@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="TwoSumII medium solved using two pointer technique in O(LogN)">
-      <change afterPath="$PROJECT_DIR$/src/Easy/ReverseVowels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="ReverseVowels solved in o(N) using two pointers technique">
+      <change beforePath="$PROJECT_DIR$/src/Easy/ReverseVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/ReverseVowels.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +77,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00001" summary="inital commit">
-      <created>1664621531069</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1664621531069</updated>
     </task>
     <task id="LOCAL-00002" summary="solved using a pointer value storage which is incremented when nums[x]!=nums[x+1]">
       <created>1664693400644</created>
@@ -423,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736678589897</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="ReverseVowels solved in o(N) using two pointers technique">
+      <created>1736680675727</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1736680675728</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working on isVaild" />
     <MESSAGE value="started roman to integer problem" />
     <MESSAGE value="progress on roman to integer problem" />
     <MESSAGE value="Roman numerals to int problem solved in O(N)" />
@@ -463,7 +460,8 @@
     <MESSAGE value="o(n) reserve string solution" />
     <MESSAGE value="o(n^2) sorted squres solution" />
     <MESSAGE value="TwoSumII medium solved using two pointer technique in O(LogN)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TwoSumII medium solved using two pointer technique in O(LogN)" />
+    <MESSAGE value="ReverseVowels solved in o(N) using two pointers technique" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReverseVowels solved in o(N) using two pointers technique" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,7 +653,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Easy/ReverseVowels.java</url>
-          <line>8</line>
+          <line>29</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
