@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="o(n) reserve string solution">
-      <change afterPath="$PROJECT_DIR$/src/Easy/Algorithms/SortedSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="o(n^2) sorted squres solution" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -408,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736598921711</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="o(n^2) sorted squres solution">
+      <created>1736602614879</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1736602614879</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GoalParserInterpretation easy strings problem completed O(N) Linear solution" />
     <MESSAGE value="CellsInExcelSheet easy strings problem completed O(N^2) quadratic solution" />
     <MESSAGE value="working on isVaild" />
     <MESSAGE value="started roman to integer problem" />
@@ -448,7 +451,8 @@
     <MESSAGE value="working O(n) solution for maxScore.java" />
     <MESSAGE value="isPalindrome O(N) solution" />
     <MESSAGE value="o(n) reserve string solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="o(n) reserve string solution" />
+    <MESSAGE value="o(n^2) sorted squres solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="o(n^2) sorted squres solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
