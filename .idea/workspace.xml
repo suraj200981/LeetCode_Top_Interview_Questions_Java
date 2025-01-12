@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="o(n^2) sorted squres solution" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="TwoSumII medium solved using two pointer technique in O(LogN)">
+      <change afterPath="$PROJECT_DIR$/src/Easy/ReverseVowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -412,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736602614879</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="TwoSumII medium solved using two pointer technique in O(LogN)">
+      <created>1736678589897</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1736678589897</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CellsInExcelSheet easy strings problem completed O(N^2) quadratic solution" />
     <MESSAGE value="working on isVaild" />
     <MESSAGE value="started roman to integer problem" />
     <MESSAGE value="progress on roman to integer problem" />
@@ -452,7 +462,8 @@
     <MESSAGE value="isPalindrome O(N) solution" />
     <MESSAGE value="o(n) reserve string solution" />
     <MESSAGE value="o(n^2) sorted squres solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="o(n^2) sorted squres solution" />
+    <MESSAGE value="TwoSumII medium solved using two pointer technique in O(LogN)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TwoSumII medium solved using two pointer technique in O(LogN)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -641,6 +652,11 @@
           <url>file://$PROJECT_DIR$/src/Easy/String/ReverseString.java</url>
           <line>10</line>
           <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/ReverseVowels.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

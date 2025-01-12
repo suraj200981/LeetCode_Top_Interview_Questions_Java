@@ -1,16 +1,17 @@
+import Easy.ReverseVowels;
 import Easy.String.IsPalindrome;
 import Easy.String.ReverseString;
 
 public class Main {
   public static void main(String[] args) {
 
-    ReverseString program = new ReverseString();
+    ReverseVowels program = new ReverseVowels();
 
 
-    char [] charArr = new char[] {'h','e','l', ',','!','l','o'};
 
 
-    program.reverseString(charArr);
+
+    program.reverseVowels("IceCreAm");
 
   }
 }
