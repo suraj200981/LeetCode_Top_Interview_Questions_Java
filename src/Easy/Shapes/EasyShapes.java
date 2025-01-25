@@ -22,4 +22,14 @@ public class EasyShapes {
       }
     }
   }
+
+  public void printInvertedTriangle() {
+
+    for (int x = 0; x < 4; x++) {
+      System.out.println();
+      for (int y = 0; y<4-x; y++) {
+        System.out.print("* ");
+      }
+    }
+  }
 }

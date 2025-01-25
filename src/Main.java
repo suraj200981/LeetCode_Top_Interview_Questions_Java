@@ -5,6 +5,6 @@ public class Main {
 
     EasyShapes program = new EasyShapes();
 
-    program.printRightAngledTriangle();
+    program.printInvertedTriangle();
   }
 }

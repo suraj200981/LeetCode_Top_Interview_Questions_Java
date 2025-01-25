@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a square problem">
-      <change afterPath="$PROJECT_DIR$/src/Easy/Shapes/RightAngledTriangle.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a right angled triangle problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/SquareShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Shapes/EasyShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/Shapes/EasyShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Shapes/EasyShapes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Runtime: 54 ms, faster than 7.24% of Java online submissions for Richest Customer Wealth.">
-      <created>1666547531607</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1666547531607</updated>
     </task>
     <task id="LOCAL-00005" summary="reduced run time to 2ms for RichestCustomerWealth">
       <created>1666547804511</created>
@@ -424,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737843240848</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="print a right angled triangle problem">
+      <created>1737844273870</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1737844273870</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="progress on roman to integer problem" />
     <MESSAGE value="Roman numerals to int problem solved in O(N)" />
     <MESSAGE value="valid paraentheses progress" />
     <MESSAGE value="Split a String in Balanced Strings solution" />
@@ -464,7 +462,8 @@
     <MESSAGE value="TwoSumII medium solved using two pointer technique in O(LogN)" />
     <MESSAGE value="ReverseVowels solved in o(N) using two pointers technique" />
     <MESSAGE value="print a square problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="print a square problem" />
+    <MESSAGE value="print a right angled triangle problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="print a right angled triangle problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,6 +657,16 @@
           <url>file://$PROJECT_DIR$/src/Easy/ReverseVowels.java</url>
           <line>29</line>
           <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Shapes/EasyShapes.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Shapes/EasyShapes.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
