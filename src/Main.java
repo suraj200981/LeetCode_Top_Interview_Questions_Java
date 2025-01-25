@@ -1,11 +1,10 @@
-import Easy.Array.FindLength;
-import Easy.SquareShape;
+import Easy.Shapes.EasyShapes;
 
 public class Main {
   public static void main(String[] args) {
 
-    SquareShape program = new SquareShape();
+    EasyShapes program = new EasyShapes();
 
-    program.printSquare();
+    program.printRightAngledTriangle();
   }
 }
