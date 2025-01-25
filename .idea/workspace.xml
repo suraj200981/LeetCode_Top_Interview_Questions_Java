@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="ReverseVowels solved in o(N) using two pointers technique">
-      <change beforePath="$PROJECT_DIR$/src/Easy/ReverseVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/ReverseVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/Array/FindLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Easy/SquareShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00002" summary="solved using a pointer value storage which is incremented when nums[x]!=nums[x+1]">
-      <created>1664693400644</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664693400644</updated>
     </task>
     <task id="LOCAL-00003" summary="Running sum of 1d array runtime 1 ms">
       <created>1666452342535</created>
@@ -421,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736680675728</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="ReverseVowels solved in o(N) using two pointers technique">
+      <created>1736680701645</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736680701645</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

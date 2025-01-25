@@ -1,17 +1,11 @@
-import Easy.ReverseVowels;
-import Easy.String.IsPalindrome;
-import Easy.String.ReverseString;
+import Easy.Array.FindLength;
+import Easy.SquareShape;
 
 public class Main {
   public static void main(String[] args) {
 
-    ReverseVowels program = new ReverseVowels();
+    SquareShape program = new SquareShape();
 
-
-
-
-
-    program.reverseVowels("IceCreAm");
-
+    program.printSquare();
   }
 }
