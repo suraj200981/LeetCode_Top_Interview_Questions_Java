@@ -17,7 +17,7 @@ public class EasyShapes {
 
     for (int x = 0; x < 4; x++) {
       System.out.println();
-      for (int y = 0; y < x+1; y++) {
+      for (int y = 0; y < x + 1; y++) {
         System.out.print("* ");
       }
     }
@@ -27,7 +27,7 @@ public class EasyShapes {
 
     for (int x = 0; x < 4; x++) {
       System.out.println();
-      for (int y = 0; y<4-x; y++) {
+      for (int y = 0; y < 4 - x; y++) {
         System.out.print("* ");
       }
     }

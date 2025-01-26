@@ -1,10 +1,11 @@
 import Easy.Shapes.EasyShapes;
+import Medium.MediumShapes;
 
 public class Main {
   public static void main(String[] args) {
 
-    EasyShapes program = new EasyShapes();
+    MediumShapes program = new MediumShapes();
 
-    program.printInvertedTriangle();
+    program.printPyramid();
   }
 }
