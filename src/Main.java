@@ -6,6 +6,6 @@ public class Main {
 
     MediumShapes program = new MediumShapes();
 
-    program.printPyramid();
+    program.printDiamond(40);
   }
 }

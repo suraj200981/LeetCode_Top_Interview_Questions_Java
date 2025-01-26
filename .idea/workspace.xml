@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a inverted triangle problem">
-      <change afterPath="$PROJECT_DIR$/src/Medium/MediumShapes.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a pyramid problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Easy/Shapes/EasyShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Shapes/EasyShapes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medium/MediumShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/MediumShapes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Runtime: 2 ms, faster than 83.07% of Java online submissions for Fizz Buzz.">
-      <created>1666550739862</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1666550739862</updated>
     </task>
     <task id="LOCAL-00007" summary="Runtime: 1 ms, faster than 78.67% of Java online submissions for Number of Steps to Reduce a Number to Zero.">
       <created>1666599601552</created>
@@ -424,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737844405810</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="print a pyramid problem">
+      <created>1737889690390</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1737889690390</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="valid paraentheses progress" />
     <MESSAGE value="Split a String in Balanced Strings solution" />
     <MESSAGE value="O(n) solution for decode the message leetcode problem" />
     <MESSAGE value="O(n) solution for count items matching rule problem" />
@@ -464,7 +462,8 @@
     <MESSAGE value="print a square problem" />
     <MESSAGE value="print a right angled triangle problem" />
     <MESSAGE value="print a inverted triangle problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="print a inverted triangle problem" />
+    <MESSAGE value="print a pyramid problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="print a pyramid problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -671,18 +670,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
-          <line>8</line>
+          <line>5</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
-          <line>10</line>
+          <line>7</line>
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
-          <line>14</line>
+          <line>10</line>
           <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
