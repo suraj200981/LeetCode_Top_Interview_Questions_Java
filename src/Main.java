@@ -6,6 +6,6 @@ public class Main {
 
     MediumShapes program = new MediumShapes();
 
-    program.printHollowSquare(1);
+    program.printHollowRightAngledTriangle(4);
   }
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a diamond problem">
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a hollow square problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/Shapes/RightAngledTriangle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Medium/MediumShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/MediumShapes.java" afterDir="false" />
     </list>
@@ -79,13 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00008" summary="BuildArrayFromPermutation easy question - completed in O(N)">
-      <created>1672587237211</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1672587237211</updated>
     </task>
     <task id="LOCAL-00009" summary="numIdenticalPairs easy question - completed in O(N^2) quadratic time. I will create a linear solution at the weekend.">
       <created>1672858863763</created>
@@ -423,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737896503732</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="print a hollow square problem">
+      <created>1737899894986</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1737899894986</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="O(n) solution for decode the message leetcode problem" />
     <MESSAGE value="O(n) solution for count items matching rule problem" />
     <MESSAGE value="working on sorting sentence problem" />
     <MESSAGE value="solved but i dont think the code is very efficient" />
@@ -463,7 +463,8 @@
     <MESSAGE value="print a inverted triangle problem" />
     <MESSAGE value="print a pyramid problem" />
     <MESSAGE value="print a diamond problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="print a diamond problem" />
+    <MESSAGE value="print a hollow square problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="print a hollow square problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,6 +698,16 @@
           <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
           <line>54</line>
           <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="163" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

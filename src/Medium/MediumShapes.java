@@ -68,4 +68,26 @@ public class MediumShapes {
       }
     }
   }
+
+  public void printHollowRightAngledTriangle(int n) {
+
+    int increaseSpaces = 1;
+
+    for (int x = 0; x < n; x++) { // do for n times
+      System.out.println();
+
+      if(x==0 || x==1 || x== n-1){
+        for (int y = 0; y < x + 1; y++) {
+          System.out.print("*");
+        }
+      }else{
+        System.out.print("*");
+        for (int y = 0; y < increaseSpaces; y++) {
+          System.out.print(" ");
+        }
+        System.out.print("*");
+        increaseSpaces++;
+      }
+    }
+  }
 }
