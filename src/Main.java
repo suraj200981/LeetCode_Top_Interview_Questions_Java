@@ -6,6 +6,6 @@ public class Main {
 
     MediumShapes program = new MediumShapes();
 
-    program.printDiamond(40);
+    program.printHollowSquare(1);
   }
 }

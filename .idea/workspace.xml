@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a pyramid problem">
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a diamond problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Medium/MediumShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium/MediumShapes.java" afterDir="false" />
@@ -79,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Runtime: 1 ms, faster than 78.67% of Java online submissions for Number of Steps to Reduce a Number to Zero.">
-      <created>1666599601552</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1666599601552</updated>
     </task>
     <task id="LOCAL-00008" summary="BuildArrayFromPermutation easy question - completed in O(N)">
       <created>1672587237211</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737889690390</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="print a diamond problem">
+      <created>1737896503731</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1737896503732</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Split a String in Balanced Strings solution" />
     <MESSAGE value="O(n) solution for decode the message leetcode problem" />
     <MESSAGE value="O(n) solution for count items matching rule problem" />
     <MESSAGE value="working on sorting sentence problem" />
@@ -463,7 +462,8 @@
     <MESSAGE value="print a right angled triangle problem" />
     <MESSAGE value="print a inverted triangle problem" />
     <MESSAGE value="print a pyramid problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="print a pyramid problem" />
+    <MESSAGE value="print a diamond problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="print a diamond problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,6 +692,11 @@
           <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
           <line>45</line>
           <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Medium/MediumShapes.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

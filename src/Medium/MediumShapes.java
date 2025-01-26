@@ -49,4 +49,23 @@ public class MediumShapes {
       }
     }
   }
+
+  public void printHollowSquare(int n) {
+
+    for (int x = 0; x < n; x++) { //do 4 times
+      System.out.println();
+
+      if (x == 0 || x == n - 1) { //first or last row
+        for (int y = 0; y < n; y++) {
+          System.out.print("*");
+        }
+      } else {
+        System.out.print("*");
+        for (int y = 0; y < n - 2; y++) {
+          System.out.print(" ");
+        }
+        System.out.print("*");
+      }
+    }
+  }
 }
