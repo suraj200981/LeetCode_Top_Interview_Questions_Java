@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="print a hollow right angled square problem">
-      <change afterPath="$PROJECT_DIR$/src/Hard/HardShapes.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="printHollowPyramid hard problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hard/HardShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hard/HardShapes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00010" summary="numIdenticalPairs easy question - completed in O(N) Linear time.">
-      <created>1672942615695</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1672942615695</updated>
     </task>
     <task id="LOCAL-00011" summary="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear.">
       <created>1673031429011</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737902570552</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="printHollowPyramid hard problem">
+      <created>1738266212157</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1738266212166</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working on sorting sentence problem" />
     <MESSAGE value="solved but i dont think the code is very efficient" />
     <MESSAGE value="Check If Two String Arrays Are Equivalent solved in O(n)" />
     <MESSAGE value="CheckIfPanagram.java solved" />
@@ -463,7 +462,8 @@
     <MESSAGE value="print a diamond problem" />
     <MESSAGE value="print a hollow square problem" />
     <MESSAGE value="print a hollow right angled square problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="print a hollow right angled square problem" />
+    <MESSAGE value="printHollowPyramid hard problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="printHollowPyramid hard problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,6 +7,6 @@ public class Main {
 
     HardShapes program = new HardShapes();
 
-    program.printHollowPyramid(10);
+    program.printCheckerboard(10);
   }
 }
