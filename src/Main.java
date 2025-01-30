@@ -1,11 +1,12 @@
 import Easy.Shapes.EasyShapes;
+import Hard.HardShapes;
 import Medium.MediumShapes;
 
 public class Main {
   public static void main(String[] args) {
 
-    MediumShapes program = new MediumShapes();
+    HardShapes program = new HardShapes();
 
-    program.printHollowRightAngledTriangle(4);
+    program.printHollowPyramid(10);
   }
 }
