@@ -1,73 +1,58 @@
 package Easy.Algorithms;
 
+
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Stack;
 
 public class ValidParentheses {
 
   public boolean isValid(String s) {
-    HashMap<Character, Character> map = new HashMap<>();
 
-    map.put('(', ')');
-    map.put('{', '}');
-    map.put('[', ']');
+    //implementation using stack
 
-    map.put(')', 'x');
-    map.put('}', 'x');
-    map.put(']', 'x');
+    Stack<Character> stack = new Stack<>();
 
     boolean output = false;
-    int correctCount = 0;
 
-    int left = 0; //start of string
-    int right = s.length() - 1; //end of string
+    String validOpenings = "([{";
 
-    ArrayList<String> valid = new ArrayList<>();
+    int popCount = 0; // total brackets closed currently
+    int pushCount = 0;// total brackets opened currently
 
-    ArrayList<String> notValid = new ArrayList<>();
-    notValid.add("{");
-    notValid.add("[");
-    notValid.add("(");
 
-    if(s.length()-1<1 || s.length()==3){
+    //is the length is odd return false;
+    if (Math.abs(s.length() % 2) == 1) {
       return output;
     }
 
+//"([}}])"
+    for (int x = 0; x < s.length(); x++) {
 
-    while (left <right) {
-      if (valid.contains(String.valueOf(s.charAt(left)))) {
-        left++;
-      }
-
-      if(left==right){
-        correctCount++;
-        break;
-      }
-      if (map.get(s.charAt(left)) == s.charAt(right)) {
-        valid.add(String.valueOf(s.charAt(left)));
-        valid.add(String.valueOf(s.charAt(right)));
-
-        //check if left is right next to right
-        if(right-left==1){
-          left++;
-          left++;
-          right = s.length() - 1;
-          correctCount++;
-        }else {
-          left++;
-          //check to the left of the right char and see if its in the valid arraylist
-          if (notValid.contains(String.valueOf(s.charAt(right-1))) && s.length()>2) {
-            break;
+      if (validOpenings.contains(String.valueOf(s.charAt(x)))) {
+        stack.push(s.charAt(x)); //adds i.e. '{' to the top of the stack
+        pushCount++;
+      }else {
+        if (!stack.isEmpty()) {
+          if (s.charAt(x) == ')' && stack.peek() == '(') {
+            stack.pop();
+            popCount++;
+          } else if (s.charAt(x) == ']' && stack.peek() == '[') {
+            stack.pop();
+            popCount++;
+          } else if (s.charAt(x) == '}' && stack.peek() == '{') {
+            stack.pop();
+            popCount++;
+          } else {
+            return output;
           }
-          right = s.length() - 1;
-          correctCount++;
+        } else if (!validOpenings.contains(String.valueOf(s.charAt(x)))) {
+          return output;
         }
-      } else {
-        right--;
+      }
+      {
       }
     }
-    if (correctCount == (s.length()) / 2) {
+    if (popCount == pushCount) {
       output = true;
     }
     return output;

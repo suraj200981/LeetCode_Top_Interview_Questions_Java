@@ -5,22 +5,18 @@ public class Main {
 
     ValidParentheses program = new ValidParentheses();
 
-//    System.out.println(program.isValid("()"));// true
-//    System.out.println(program.isValid("()[]{}"));// true
-//    System.out.println(program.isValid("(]"));//false
-//    System.out.println(program.isValid("([])"));//true
-//    System.out.println(program.isValid("([)]"));//false
-//    System.out.println(program.isValid(    "(){}}{"));//false
-//    System.out.println(program.isValid(    "([]){"));//false
-//    System.out.println(program.isValid(    "(])"));//false
+    System.out.println(program.isValid("()"));// true
+    System.out.println(program.isValid("()[]{}"));// true
+    System.out.println(program.isValid("(]"));//false
+    System.out.println(program.isValid("([])"));//true
+    System.out.println(program.isValid("([)]"));//false
+    System.out.println(program.isValid(    "(){}}{"));//false
+    System.out.println(program.isValid(    "([]){"));//false
+    System.out.println(program.isValid(    "(])"));//false
     System.out.println(program.isValid(    "[(({})}]"));//false
-
-
-
-
-
-
-
+    System.out.println(program.isValid(    "([}}])"));//false
+    System.out.println(program.isValid(    "))"));//false
+    System.out.println(program.isValid(    "()))"));//false
 
   }
 }
