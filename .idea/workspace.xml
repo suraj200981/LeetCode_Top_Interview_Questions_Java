@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="printHollowPyramid hard problem">
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="Checkerboard hard problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hard/HardShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hard/HardShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Most words Found easy question - completed in O(N^2) time quadratic solution. I will come back to this and try to make it linear.">
-      <created>1673031429011</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1673031429011</updated>
     </task>
     <task id="LOCAL-00012" summary="Kids With Candies easy question - completed in O(N) time Linear solution.">
       <created>1673096178331</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738266212166</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Checkerboard hard problem">
+      <created>1738266855336</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1738266855336</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solved but i dont think the code is very efficient" />
     <MESSAGE value="Check If Two String Arrays Are Equivalent solved in O(n)" />
     <MESSAGE value="CheckIfPanagram.java solved" />
     <MESSAGE value="completed in O(n)" />
@@ -463,7 +462,8 @@
     <MESSAGE value="print a hollow square problem" />
     <MESSAGE value="print a hollow right angled square problem" />
     <MESSAGE value="printHollowPyramid hard problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="printHollowPyramid hard problem" />
+    <MESSAGE value="Checkerboard hard problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkerboard hard problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,11 +589,6 @@
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Easy/String/StringIncrementer.java</url>
           <line>18</line>
           <option name="timeStamp" value="100" />
@@ -712,6 +707,16 @@
           <url>file://$PROJECT_DIR$/src/Hard/HardShapes.java</url>
           <line>5</line>
           <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Algorithms/ValidParentheses.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="168" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

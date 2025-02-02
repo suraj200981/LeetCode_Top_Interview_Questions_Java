@@ -1,12 +1,26 @@
-import Easy.Shapes.EasyShapes;
-import Hard.HardShapes;
-import Medium.MediumShapes;
+import Easy.Algorithms.ValidParentheses;
 
 public class Main {
   public static void main(String[] args) {
 
-    HardShapes program = new HardShapes();
+    ValidParentheses program = new ValidParentheses();
 
-    program.printCheckerboard(10);
+//    System.out.println(program.isValid("()"));// true
+//    System.out.println(program.isValid("()[]{}"));// true
+//    System.out.println(program.isValid("(]"));//false
+//    System.out.println(program.isValid("([])"));//true
+//    System.out.println(program.isValid("([)]"));//false
+//    System.out.println(program.isValid(    "(){}}{"));//false
+//    System.out.println(program.isValid(    "([]){"));//false
+//    System.out.println(program.isValid(    "(])"));//false
+    System.out.println(program.isValid(    "[(({})}]"));//false
+
+
+
+
+
+
+
+
   }
 }

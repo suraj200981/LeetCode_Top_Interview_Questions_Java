@@ -1,13 +1,10 @@
 package Easy.Algorithms;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class ValidParentheses {
-
-  public ValidParentheses() {
-
-  }
 
   public boolean isValid(String s) {
     HashMap<Character, Character> map = new HashMap<>();
@@ -16,39 +13,63 @@ public class ValidParentheses {
     map.put('{', '}');
     map.put('[', ']');
 
-    boolean output = false;
+    map.put(')', 'x');
+    map.put('}', 'x');
+    map.put(']', 'x');
 
-    if(s.equals("{[]}")){
-      return true;
+    boolean output = false;
+    int correctCount = 0;
+
+    int left = 0; //start of string
+    int right = s.length() - 1; //end of string
+
+    ArrayList<String> valid = new ArrayList<>();
+
+    ArrayList<String> notValid = new ArrayList<>();
+    notValid.add("{");
+    notValid.add("[");
+    notValid.add("(");
+
+    if(s.length()-1<1 || s.length()==3){
+      return output;
     }
 
-    int countTrue=0;
-    int countFalse=0;
 
-    for(int x = 0; x<s.length(); x++){
+    while (left <right) {
+      if (valid.contains(String.valueOf(s.charAt(left)))) {
+        left++;
+      }
 
-      for(int y = x+1; y<s.length();y++){
-        try {
-          if (map.get(s.charAt(x)) == s.charAt(y)) {
-            countTrue++;
+      if(left==right){
+        correctCount++;
+        break;
+      }
+      if (map.get(s.charAt(left)) == s.charAt(right)) {
+        valid.add(String.valueOf(s.charAt(left)));
+        valid.add(String.valueOf(s.charAt(right)));
+
+        //check if left is right next to right
+        if(right-left==1){
+          left++;
+          left++;
+          right = s.length() - 1;
+          correctCount++;
+        }else {
+          left++;
+          //check to the left of the right char and see if its in the valid arraylist
+          if (notValid.contains(String.valueOf(s.charAt(right-1))) && s.length()>2) {
             break;
-          }else{
-            countFalse++;
           }
-        } catch (NullPointerException e) {
-          System.out.println(e);
+          right = s.length() - 1;
+          correctCount++;
         }
+      } else {
+        right--;
       }
     }
-
-    if(countFalse>countTrue){
-      output=false;
-    }else if(countTrue>countFalse){
-      output=true;
-    }else{
-      output=false;
+    if (correctCount == (s.length()) / 2) {
+      output = true;
     }
-
     return output;
   }
 
