@@ -1,22 +1,12 @@
 import Easy.Algorithms.ValidParentheses;
+import Easy.String.RemoveDuplicates;
 
 public class Main {
   public static void main(String[] args) {
 
-    ValidParentheses program = new ValidParentheses();
+    RemoveDuplicates program = new RemoveDuplicates();
 
-    System.out.println(program.isValid("()"));// true
-    System.out.println(program.isValid("()[]{}"));// true
-    System.out.println(program.isValid("(]"));//false
-    System.out.println(program.isValid("([])"));//true
-    System.out.println(program.isValid("([)]"));//false
-    System.out.println(program.isValid(    "(){}}{"));//false
-    System.out.println(program.isValid(    "([]){"));//false
-    System.out.println(program.isValid(    "(])"));//false
-    System.out.println(program.isValid(    "[(({})}]"));//false
-    System.out.println(program.isValid(    "([}}])"));//false
-    System.out.println(program.isValid(    "))"));//false
-    System.out.println(program.isValid(    "()))"));//false
+    System.out.println(program.removeDuplicates("azxxzy"));// valid
 
   }
 }
