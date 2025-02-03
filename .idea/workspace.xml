@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="valid parenthesis problem solved in O(N) using Stack">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/RemoveDuplicates.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="remove duplicates problem solved in O(N) using Stack">
+      <change afterPath="$PROJECT_DIR$/src/Easy/String/BackSpaceCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -79,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Smaller numbers than current number in array easy question - completed in O(N) time Linear solution.">
-      <created>1673176593418</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1673176593418</updated>
     </task>
     <task id="LOCAL-00015" summary="Shuffle String easy question - completed in O(N) time Linear solution.">
       <created>1673292398028</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738504428337</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="remove duplicates problem solved in O(N) using Stack">
+      <created>1738506037556</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1738506037557</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="completed in O(n)" />
     <MESSAGE value="MergeStringsAlternately completed in O(n)" />
     <MESSAGE value="uniqueMorseRepresentations solved in qudrantic time, try and come back to make this more efficient" />
     <MESSAGE value="count consistent strings solved in quadratic time, come back and make this more efficient" />
@@ -463,7 +462,8 @@
     <MESSAGE value="Checkerboard hard problem" />
     <MESSAGE value="progress on new valid parentheses implmentation with two pointer" />
     <MESSAGE value="valid parenthesis problem solved in O(N) using Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="valid parenthesis problem solved in O(N) using Stack" />
+    <MESSAGE value="remove duplicates problem solved in O(N) using Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove duplicates problem solved in O(N) using Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -722,6 +722,16 @@
           <url>file://$PROJECT_DIR$/src/Easy/String/RemoveDuplicates.java</url>
           <line>13</line>
           <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/BackSpaceCompare.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/String/BackSpaceCompare.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="172" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
