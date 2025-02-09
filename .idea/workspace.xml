@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="remove duplicates problem solved in O(N) using Stack">
-      <change afterPath="$PROJECT_DIR$/src/Easy/String/BackSpaceCompare.java" afterDir="false" />
+    <list default="true" id="9fb4a44e-74af-4c56-8094-a91fd04fb54c" name="Changes" comment="backspaceCompare problem solved in O(N) using Stack">
+      <change afterPath="$PROJECT_DIR$/src/Easy/Stack/MakeGood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -79,13 +79,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664621516483</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Shuffle String easy question - completed in O(N) time Linear solution.">
-      <created>1673292398028</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1673292398028</updated>
     </task>
     <task id="LOCAL-00016" summary="progression on target array problem">
       <created>1673458898824</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738506037557</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="backspaceCompare problem solved in O(N) using Stack">
+      <created>1738614570675</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1738614570676</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MergeStringsAlternately completed in O(n)" />
     <MESSAGE value="uniqueMorseRepresentations solved in qudrantic time, try and come back to make this more efficient" />
     <MESSAGE value="count consistent strings solved in quadratic time, come back and make this more efficient" />
     <MESSAGE value="Plus One Array problem solved in linear time O(n)" />
@@ -463,7 +462,8 @@
     <MESSAGE value="progress on new valid parentheses implmentation with two pointer" />
     <MESSAGE value="valid parenthesis problem solved in O(N) using Stack" />
     <MESSAGE value="remove duplicates problem solved in O(N) using Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove duplicates problem solved in O(N) using Stack" />
+    <MESSAGE value="backspaceCompare problem solved in O(N) using Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="backspaceCompare problem solved in O(N) using Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,6 +732,21 @@
           <url>file://$PROJECT_DIR$/src/Easy/String/BackSpaceCompare.java</url>
           <line>15</line>
           <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Stack/MakeGood.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Stack/MakeGood.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Stack/MakeGood.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
